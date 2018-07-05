@@ -1,0 +1,10 @@
+.idea
+.grade
+build
+out
+.gradle
+*.iml
+/hes
+/ottonow
+/wirecard
+.DS_Store
