@@ -8,3 +8,4 @@ out
 /ottonow
 /wirecard
 .DS_Store
+gradle.properties
