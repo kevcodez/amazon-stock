@@ -104,12 +104,16 @@ publishing {
 
         }
     }
+
+    def myNexusUsername = hasProperty('nexusUsername') ? nexusUsername : 'foo'
+    def myNexusPassword = hasProperty('nexusPassword') ? nexusPassword : 'bar'
+
     repositories {
         maven {
             url "https://oss.sonatype.org/service/local/staging/deploy/maven2"
             credentials {
-                username nexusUsername
-                password nexusPassword
+                username myNexusUsername
+                password myNexusPassword
             }
         }
     }
