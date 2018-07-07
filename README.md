@@ -2,15 +2,15 @@
 
 This library allows retrieving the current stock from an amazon offer.
 
-![Maven metadata URI](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/de/kevcodez/amazon-stock/maven-metadata.xml.svg) [![Build Status](https://travis-ci.org/kevcodez/amazon-stock.svg?branch=master)](https://travis-ci.org/kevcodez/amazon-stock) [![GitHub license](https://img.shields.io/github/license/kevcodez/amazon-stock.svg)](https://github.com/kevcodez/amazon-stock/blob/master/LICENSE)
+![Maven metadata URI](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/de/kevcodez/amazon/stock/maven-metadata.xml.svg) [![Build Status](https://travis-ci.org/kevcodez/amazon-stock.svg?branch=master)](https://travis-ci.org/kevcodez/amazon-stock) [![GitHub license](https://img.shields.io/github/license/kevcodez/amazon-stock.svg)](https://github.com/kevcodez/amazon-stock/blob/master/LICENSE)
 
 ## Getting started
 
 ## Maven
 ```xml
 <dependency>
-    <groupId>de.kevcodez</groupId>
-    <artifactId>amazon-stock</artifactId>
+    <groupId>de.kevcodez.amazon</groupId>
+    <artifactId>stock</artifactId>
     <version>0.1.0</version>
 </dependency>
 ```
@@ -18,7 +18,7 @@ This library allows retrieving the current stock from an amazon offer.
 ## Gradle
 
 ```groovy
-compile "de.kevcodez:amazon-stock:0.1.0"
+compile "de.kevcodez.amazon:stock:0.1.0"
 ```
 
 ### Example
